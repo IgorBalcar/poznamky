@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programy a data</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            background-color: bisque;
+        }
+
+        .container div {
+            background-color: white;
+            border: 1px solid gray;
+            margin: 10px;
+            padding: 10px;
+            width: 28%;
+        }
+
+        @media (max-width: 960px) {
+            .container {
+                flex-direction: row;
+                background-color: rgb(179, 131, 60);
+            }
+            .container div {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                background-color: rgb(153, 179, 60);
+            }
+            .container div {
+                width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Programy a data</h1>
+    </header>
+    <main class="container">
+        <div>
+            <h3><a href="a/index.html">A - Programové a datové soubory</a></h3>
+            <ul>
+                <li><a href="a/index.html#Soubor">Soubor</a></li>
+                <li><a href="a/index.html#Adresáře">Adresáře</a></li>
+                <li><a href="a/index.html#cesta-a-zastupne-znaky">Cesta a zástupné znaky</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3><a href="B/index.html">Operační systémy</a></h3>
+            <ul>
+                <li><a href="B/index.html#programove-vybaveni">Programové vybavení</a></li>
+                <li><a href="B/index.html#historie-os">Historie OS</a></li>
+                <li><a href="B/index.html#typy-os">Typy operačních systémů</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3><a href="c/index.html">Ovladače, firmware a utility</a></h3>
+            <ul>
+                <li><a href="c/index.html#ovladace">Ovladače zařízení</a></li>
+                <li><a href="c/index.html#firmware">Firmware</a></li>
+                <li><a href="c/index.html#utility">Utility</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3><a href="d/index.html">Aplikační software</a></h3> <ul>
+                <li><a href="d/index.html#kancelarske-baliky">Kancelářské balíky</a></li>
+                <li><a href="d/index.html#graficke-aplikace">Grafické aplikace</a></li>
+                <li><a href="d/index.html#multimedia">Multimediální programy</a></li>
+                <li><a href="d/index.html#komunikace">Síťová komunikace</a></li>
+                <li><a href="d/index.html#is">Informační systémy</a></li>
+                <li><a href="d/index.html#ide">Vývojová prostředí (IDE)</a></li> 
+            </ul>
+        </div>
+        <div>
+            <h3><a href="e/index.html">Instalace programů</a></h3> 
+            <ul> <li><a href="e/index.html#instalace">Instalace programů</a></li>
+                <li><a href="e/index.html#odinstalace">Odinstalace</a></li>
+                <li><a href="e/index.html#lokalizace">Lokalizace</a></li>
+                <li><a href="e/index.html#kompatibilita">Platforma a kompatibilita</a></li>
+                <li><a href="e/index.html#verze">Verze programů</a></li>
+                <li><a href="e/index.html#registrace">Registrace programu</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3><a href="f/index.html">F - Softwarové licence</a></h3>
+            <ul>
+                <li><a href="./f/index.html#komercni-software">Komerční software</a></li>
+                <li><a href="./f/index.html#svobodny-software">Svobodný software</a></li>
+                <li><a href="./f/index.html#prehled-licenci">Přehled licencí</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
